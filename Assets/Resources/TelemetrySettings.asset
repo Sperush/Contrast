@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8f2a19d0b4e7c8a53f612047b9e31, type: 3}
+  m_Name: TelemetrySettings
+  m_EditorClassIdentifier: 
+  endpointUrl: https://bigame.ezwork.vn/logs
+  gameId: physic_game
+  collection: player_logs
+  buildId: build_01
+  levelVersion: 1.0
+  country: VN
+  overrideUserId: 
+  userIdPrefix: player_
+  defaultUserFallback: player1
+  playerPrefsUserKey: Contrast_Telemetry_UserId
+  enabled: 1
+  logToConsole: 0
+  requestTimeoutSec: 8
+  quitFlushTimeoutSec: 4
+  maxPendingQueue: 256
+  maxRecentPayloads: 100
+  omitZeroOptionalFields: 1
+  sendDeviceMetadataOnlyOnSessionStart: 1
+  aggregateHighFrequencyTracks: 1
+  sendDelaySeconds: 0.15
+  stuckCooldownSec: 2
+  maxFrameDeltaTime: 0.25
+  teleportDeltaXThreshold: 3
+  checkpointMatchRadius: 0.5
+  phaseTuneEpsilon: 0.0005
+  obstacleApproachRadius: 3.5
+  trackSession: 1
+  trackLevel: 1
+  trackCheckpoint: 1
+  trackChallenge: 1
+  trackPlayerDeath: 1
+  trackRespawn: 1
+  trackLevelFinish: 1
+  trackPause: 1
+  trackCollectible: 1
+  trackNewton: 1
+  trackPlayerStuck: 1
+  trackMovement: 0
+  trackJump: 0
+  trackObstacle: 0
+  disabledActions: []
+  disabledFields: []
+  extraGlobalFields: []
